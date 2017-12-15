@@ -41,11 +41,15 @@
     border-radius: 2px;
     font-size: 1rem;
     transition: .2s all;
-    color: #007acc;
-    border: 1px solid #007acc;
-    background: rgba(251, 252, 252, 0.2);
+    color: var(--colorPrimary);
+    border: 1px solid var(--colorPrimaryDark);
+    background: rgba(251, 252, 252, 0.1);
     width: 6rem;
     cursor: pointer;
+  }
+
+  & input[type=submit]:active {
+    color: #007acc;
   }
 }
 
