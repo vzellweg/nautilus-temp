@@ -37,6 +37,9 @@ const Homepage = (props, { metadata: { pkg } }) => {
     <div className={ styles.page }>
       <Helmet
         title={ metaTitle }
+        link={ [
+          { "rel": "icon", "type": "image/ico", "href": "/assets/favicon.ico" },
+        ] }
         meta={ meta }
       />
       <section
