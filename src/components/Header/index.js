@@ -92,14 +92,6 @@ class Header extends Component {
             <li className={styles.navItem}>
               <Link
                 className={ styles.link }
-                to={ "/build-a-custom/" }
-              >
-                { "Build A Custom" }
-              </Link>
-            </li>
-            <li className={styles.navItem}>
-              <Link
-                className={ styles.link }
                 to={ "/accessories/" }
               >
                 { "Accessories" }
