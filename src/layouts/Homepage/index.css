@@ -176,11 +176,24 @@ section h2 {
   }
 }
 
-/*@media (min-width: 768px) {
-  .eventsContainer {
+@media (max-width: 768px) {
+  .hero .wrapper {
+    margin-left: 1vw;
+    margin-top: 5vh;
+    text-align: left;
+  }
+  .hero .heading {
+    color: var(--colorNeutralLight);
+    text-shadow: 0 2px 4px #111;
+    letter-spacing: 3px;
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+  /* Previously commented-out */
+  /* .eventsContainer {
     flex-direction: row;
   }
   .eventsText {
     margin-right: 4rem;
-  }
-}*/
+  } */
+}
