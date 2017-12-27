@@ -178,7 +178,6 @@ section h2 {
 
 @media (max-width: 768px) {
   .hero .wrapper {
-    margin-left: 1vw;
     margin-top: 5vh;
     text-align: left;
   }
