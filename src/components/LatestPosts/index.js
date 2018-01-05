@@ -15,6 +15,8 @@ const LatestPosts = (props, { collection }) => {
   })
   .slice(0, props.numberOfPosts || defaultNumberOfPosts)
 
+  latestPosts.forEach((page) => {page.thumbnail = (page.thumbnail) ? page.thumbnail : null})
+
   return (
     <div>
       <PagesList pages={ latestPosts } />
