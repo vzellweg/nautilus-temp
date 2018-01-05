@@ -176,9 +176,10 @@ section h2 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-height: 500px) and (orientation: landscape), (max-width: 768px) and (orientation: portrait) {
   .hero .wrapper {
-    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-top: 0;
     text-align: left;
   }
   .hero .heading {
@@ -187,6 +188,7 @@ section h2 {
     letter-spacing: 3px;
     font-size: 5rem;
     line-height: 1.2;
+    margin-top: 5vh;
   }
   /* Previously commented-out */
   /* .eventsContainer {
