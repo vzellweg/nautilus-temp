@@ -1,5 +1,5 @@
 .photosSection, .blogSection, .footerSection {
-  background-color: #efefef;
+  background-color: var(--colorNeutralLight);
 }
 .aboutSection .wrapper, .eventsSection .wrapper, .blogSection .wrapper {
   padding: 6rem 1rem;
